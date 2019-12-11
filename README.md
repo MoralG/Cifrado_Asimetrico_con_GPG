@@ -4,7 +4,7 @@
 
 #### En esta práctica vamos a cifrar ficheros utilizando cifrado asimétrico utilizando el programa gpg. Puedes encontrar el resumen de comando en esta chuleta o buscar información en internet.
 
-### Tarea 1: Generación de claves
+### Tarea 1: [Generación de claves](https://github.com/MoralG/Cifrado_Asimetrico_con_GPG/blob/master/Cifrado_Asimetrico_GPG.md#tarea-1-generaci%C3%B3n-de-claves)
 -----------------------------------------------------------------------------------------
 #### Los algoritmos de cifrado asimétrico utilizan dos claves para el cifrado y descifrado de mensajes. Cada persona involucrada (receptor y emisor) debe disponer, por tanto, de una pareja de claves pública y privada. Para generar nuestra pareja de claves con gpg utilizamos la opción --gen-key:
 
@@ -12,7 +12,7 @@
 2. Lista las claves públicas que tienes en tu almacén de claves. Explica los distintos datos que nos muestra. ¿Cómo deberías haber generado las claves para indicar, por ejemplo, que tenga un 1 mes de validez?
 3. Lista las claves privadas de tu almacén de claves.
 
-### Tarea 2: Importar / exportar clave pública
+### Tarea 2: [Importar / exportar clave pública](https://github.com/MoralG/Cifrado_Asimetrico_con_GPG/blob/master/Cifrado_Asimetrico_GPG.md#tarea-2-importar--exportar-clave-p%C3%BAblica)
 -----------------------------------------------------------------------------------------
 #### Para enviar archivos cifrados a otras personas, necesitamos disponer de sus claves públicas. De la misma manera, si queremos que cierta persona pueda enviarnos datos cifrados, ésta necesita conocer nuestra clave pública. Para ello, podemos hacérsela llegar por email por ejemplo. Cuando recibamos una clave pública de otra persona, ésta deberemos incluirla en nuestro keyring o anillo de claves, que es el lugar donde se almacenan todas las claves públicas de las que disponemos.
 
@@ -20,7 +20,7 @@
 2. Importa las claves públicas recibidas de vuestro compañero.
 3. Comprueba que las claves se han incluido correctamente en vuestro keyring.
 
-### Tarea 3: Cifrado asimétrico con claves públicas
+### Tarea 3: [Cifrado asimétrico con claves públicas](https://github.com/MoralG/Cifrado_Asimetrico_con_GPG/blob/master/Cifrado_Asimetrico_GPG.md#tarea-3-cifrado-asim%C3%A9trico-con-claves-p%C3%BAblicas)
 -----------------------------------------------------------------------------------------
 #### Tras realizar el ejercicio anterior, podemos enviar ya documentos cifrados utilizando la clave pública de los destinatarios del mensaje.
 
@@ -30,7 +30,7 @@
 4. Por último, enviaremos el documento cifrado a alguien que no estaba en la lista de destinatarios y comprobaremos que este usuario no podrá descifrar este archivo.
 5. Para terminar, indica los comandos necesarios para borrar las claves públicas y privadas que posees.
 
-### Tarea 4: Exportar clave a un servidor público de claves PGP
+### Tarea 4: [Exportar clave a un servidor público de claves PGP](https://github.com/MoralG/Cifrado_Asimetrico_con_GPG/blob/master/Cifrado_Asimetrico_GPG.md#tarea-4-exportar-clave-a-un-servidor-p%C3%BAblico-de-claves-pgp)
 -----------------------------------------------------------------------------------------
 #### Para distribuir las claves públicas es mucho más habitual utilizar un servidor específico para distribuirlas, que permite a los clientes añadir las claves públicas a sus anillos de forma mucho más sencilla.
 
